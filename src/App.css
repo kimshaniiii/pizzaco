@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -13,20 +15,85 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900px;
+  letter-spacing: 3px;
+  background-color: #920707;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 35px;
+  color: white; 
 }
 
-.App-link {
-  color: #61dafb;
+.menu-header {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 40px;
+  color: #920707;
 }
+
+.menu-tagline {
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #555555;
+}
+
+.pizza-list {
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 1px;
+  display: flex;         
+  flex-wrap: wrap;        
+  justify-content: center;
+  gap: 90px;             
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+
+.footer {
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: center;
+  background: #920707;
+  color: white;
+  padding: 2px 0;
+}
+
+.order {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #650000; /* default background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.order:hover {
+  background-color: #520404;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+
 
 @keyframes App-logo-spin {
   from {

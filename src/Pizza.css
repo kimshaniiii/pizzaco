@@ -1,0 +1,37 @@
+.pizza-card {
+  width: 320px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pizza-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.pizza-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.pizza-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #b22222;
+  margin-bottom: 8px;
+}
+
+.pizza-description {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.4;
+}
